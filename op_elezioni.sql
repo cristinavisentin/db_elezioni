@@ -32,7 +32,7 @@ SELECT *
 FROM elencoElezioni;
 
 #OPERAZIONE N° 2
-# Data una legislatura ritorna il numero di elettori, il numero di votanti e la percentuale di affluenza
+# Data una legislatura ritorna l'anno di svolgimento e la percentuale di affluenza
 # N.B. usa la UDF ed interroga la VISTA definite sopra
 delimiter $$
 CREATE PROCEDURE affluenza_totale_per_elezione(num_legislatura INT(2))
