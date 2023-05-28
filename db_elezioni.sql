@@ -6,7 +6,7 @@ SET FOREIGN_KEY_CHECKS = 0;
 SET FOREIGN_KEY_CHECKS = 1;
 
 
-########################################### TABELLA ELEZIONE ###########################################
+########################################### TABELLA ELEZIONE ############################################
 CREATE TABLE elezione(
 	Legislatura INT(2) PRIMARY KEY AUTO_INCREMENT,
     AnnoSvolgimento YEAR NOT NULL,
