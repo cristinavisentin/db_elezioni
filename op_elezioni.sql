@@ -1,3 +1,4 @@
+
 USE db_elezioni;
 
 # UDF che calcola la percentuale
